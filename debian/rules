@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# message/pipeline needs golang.org/x/tools
+export DH_GOLANG_EXCLUDES := collate/tools/colcmp cmd/gotext message/pipeline
+
+%:
+	dh $@ --buildsystem=golang --with=golang
