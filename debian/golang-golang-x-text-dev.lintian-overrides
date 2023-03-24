@@ -1,4 +1,4 @@
-golang-golang-x-text-dev: national-encoding usr/share/gocode/src/golang.org/x/text/encoding/testdata/candide-gb18030.txt
-golang-golang-x-text-dev: national-encoding usr/share/gocode/src/golang.org/x/text/encoding/testdata/candide-windows-1252.txt
-golang-golang-x-text-dev: national-encoding usr/share/gocode/src/golang.org/x/text/encoding/testdata/rashomon-euc-jp.txt
-golang-golang-x-text-dev: national-encoding usr/share/gocode/src/golang.org/x/text/message/fmt_test.go
+national-encoding [usr/share/gocode/src/golang.org/x/text/encoding/testdata/candide-gb18030.txt]
+national-encoding [usr/share/gocode/src/golang.org/x/text/encoding/testdata/candide-windows-1252.txt]
+national-encoding [usr/share/gocode/src/golang.org/x/text/encoding/testdata/rashomon-euc-jp.txt]
+national-encoding [usr/share/gocode/src/golang.org/x/text/message/fmt_test.go]

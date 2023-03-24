@@ -5,4 +5,4 @@
 export DH_GOLANG_EXCLUDES := collate/tools/colcmp cmd/gotext message/pipeline
 
 %:
-	dh $@ --buildsystem=golang --with=golang
+	dh $@ --builddirectory=_build --buildsystem=golang

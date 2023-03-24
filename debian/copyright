@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: golang.org/x/text
 Source: https://go.googlesource.com/text/
+Upstream-Name: golang.org/x/text
 Comment:
  https://github.com/golang/text
 
