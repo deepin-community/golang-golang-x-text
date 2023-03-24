@@ -16,7 +16,6 @@ import (
 	"go/build"
 	"go/format"
 	"io"
-	"io/ioutil"
 	"log"
 	"os"
 	"strings"
@@ -48,7 +47,7 @@ func config() (*pipeline.Config, error) {
 	return &pipeline.Config{
 		SourceLanguage:      tag,
 		Supported:           getLangs(),
-		TranslationsPattern: `messages\.(.*)\.json`,
+		TranslationsPattern: `messages\.(.*)\.json$`,
 		GenFile:             *out,
 	}, nil
 }
@@ -310,7 +309,7 @@ func help(args []string) {
 			if err != nil {
 				logf("Could not format generated docs: %v\n", err)
 			}
-			if err := ioutil.WriteFile("doc.go", b, 0666); err != nil {
+			if err := os.WriteFile("doc.go", b, 0666); err != nil {
 				logf("Could not create file alldocs.go: %v\n", err)
 			}
 		} else {
