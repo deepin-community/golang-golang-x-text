@@ -12,7 +12,7 @@ Forwarded: no
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/message/fmt_test.go b/message/fmt_test.go
-index 2d6872b..4836d4c 100644
+index 42de593..59a2755 100644
 --- a/message/fmt_test.go
 +++ b/message/fmt_test.go
 @@ -1440,7 +1440,7 @@ func TestCountMallocs(t *testing.T) {
